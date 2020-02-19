@@ -1,14 +1,68 @@
-/* My Awesome Styles */
 
-/* Diagnostic Styling 
-  * Change Background Color
-  * Outline Elements
-*/
-
-* {
-    outline: 1px dotted black;
+/* Doodle Stage */
+svg#flash{
+ z-index:-9999;
+  opacity:0;
+  position: absolute;
+  
+}
+#stage {
+  background: white;
+  height: 300px;
+  width: 600px;
+  position: relative;
 }
 
-body{
-  background-image: url(../img/camera.png);
+svg#stand{
+ width:25%;
+ z-index: 2;
+}
+svg#lens{
+  width:12%;
+  z-index: 2;
+}
+
+#button{
+width:90px;
+height:55px;
+z-index: 99999;
+}
+
+#three{
+position: absolute;
+z-index: -200;
+width: 200px;
+opacity: 0;
+}
+#two{
+  position: absolute;
+  z-index: -200;
+  width: 200px;
+  opacity: 0;
+  }
+#one{
+    position: absolute;
+    z-index: -200;
+    width: 200px;
+    opacity: 0;
+    }
+#lowerG{
+width: 10%;
+z-index: 2;
+}
+#e{
+  width:10%;
+  z-index: 2;
+}
+#G{
+  width: 15%;
+  z-index: 2;
+}
+#lensCap{
+  width:12%;
+  z-index: 2;
+}
+
+#back{
+  width: 650px;
 }
