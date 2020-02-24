@@ -12,9 +12,12 @@ svg#flash{
   width: 600px;
   position: relative;
 }
+#player{
+  opacity: 0;
+}
 
 svg#stand{
- width:25%;
+ width:27%;
  z-index: 2;
 }
 svg#lens{
@@ -65,4 +68,45 @@ z-index: 2;
 
 #back{
   width: 650px;
+}
+
+html, body { 
+  height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
+
+#search {
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: .5em 1em;
+  text-align: center;
+}
+
+input {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border: 1px solid #aaa;
+  display: block;
+  padding: 1em;
+  margin: 2em auto;
+  outline: none;
+  line-height: 2em;
+  width: 80%;
 }
