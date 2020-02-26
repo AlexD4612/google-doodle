@@ -7,7 +7,6 @@ svg#flash{
   
 }
 #stage {
-  background: white;
   height: 300px;
   width: 600px;
   position: relative;
@@ -22,7 +21,7 @@ svg#stand{
 }
 svg#lens{
   width:12%;
-  z-index: 2;
+  z-index: 3;
 }
 
 #button{
@@ -50,24 +49,34 @@ opacity: 0;
     opacity: 0;
     }
 #lowerG{
-width: 10%;
-z-index: 2;
+width: 12%;
+z-index: 3;
 }
 #e{
-  width:10%;
-  z-index: 2;
+  width:13%;
+  z-index: 3;
 }
 #G{
-  width: 15%;
-  z-index: 2;
+  width: 19%;
+  z-index: 3;
+}
+
+#ShadowG{
+  width:10%;
+  z-index:2;
 }
 #lensCap{
   width:12%;
-  z-index: 2;
+  z-index: 3;
 }
 
 #back{
   width: 650px;
+}
+svg#prompt{
+  width: 5%;
+  position: absolute;
+  z-index: 2;
 }
 
 html, body { 
