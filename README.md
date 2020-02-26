@@ -1,5 +1,5 @@
 # Photography Google Doodle
-I decided to create my Google Doodle based on photography. I sound 
+I decided to create my Google Doodle based on photography. I have been into photography for a while, although I haven't found time to pursue my hobby recently. A good photo can sometimes say a lot more than any other form of art. I incorporated different kinds of photos into my google doodle by making each letter represent its own style of photgraphy, the first G capturing the night sky, the second g showning landscape photography of a mountain range, and the e being a simple yet elegant photo of a flower. I also wanted to incorporate some tools used in photography, including a lens as an 'o', a lens cap as the other 'o' and an external flash stand as the 'l'. 
 
 ## Collage
  [Link to Collage](https://www.figma.com/file/dafhi0nPCJ8YQMkGnsJ2bG/Untitled?node-id=0%3A1)
