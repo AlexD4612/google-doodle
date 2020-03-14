@@ -29,17 +29,9 @@ var animate = gsap.to("svg#lens",{delay:.5,rotate:90,yoyo:true,repeat:-1,duratio
 function:flash
 purpose: simulate camera flash when button is pressed
 -------------------------------------------------------*/
-document.getElementById("button").addEventListener("click",flash); 
+document.getElementById("button").addEventListener("click",cam); 
 
 
-function flash(){
-    
- cam();
- player.play();
- gsap.timeline()
-    .to("#flash",{opacity:1,zIndex:999999})
-    .to("#flash",{opacity:0,zIndex:-99999,})
-} // end flash
 
 /*-------------------------------------------------------------------
 function: sound
@@ -56,6 +48,9 @@ function cam(){
     .to("#two",{opacity:0,zIndex:-200,duration:1})
     .to("#one",{zIndex:200,opacity:1})
     .to("#one",{opacity:0,zIndex:-200,duration:1})
+    .to("#flash",{opacity:1,zIndex:999999})
+    .to("#flash",{opacity:0,zIndex:-99999,})
+    player.play();
 gsap.to("svg#G",{rotate:10, yoyo:true,repeat:7,duration:.5,ease:Elastic})
 gsap.to("svg#lensCap",{delay:.5,rotate:-10, yoyo:true,repeat:7,duration:.5,ease:Elastic})
 gsap.to("svg#lowerG",{delay:.5,rotate:10, yoyo:true,repeat:7,duration:.5,ease:Elastic})
